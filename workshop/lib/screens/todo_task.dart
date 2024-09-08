@@ -53,6 +53,7 @@ class _TodoTaskState extends State<TodoTask> {
         title: Row(
           children:[
             Icon(Icons.list),
+            SizedBox(width:10),
             Text("Todo List"),
           ],
         ),
