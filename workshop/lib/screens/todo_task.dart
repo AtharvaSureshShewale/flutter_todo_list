@@ -65,7 +65,7 @@ class _TodoTaskState extends State<TodoTask> {
             title: Text(task['title'],
             style: TextStyle(
               decoration: task['completed']? TextDecoration.lineThrough : null,
-              color: task['important'] && !task['completed']?Colors.red:Colors.black,
+              color: task['important'] && !task['completed']?Colors.red:Colors.blue,
             ),
             ),
             subtitle: Text(task['subtitle'], style: TextStyle(decoration: task['completed']?TextDecoration.lineThrough:null),),
