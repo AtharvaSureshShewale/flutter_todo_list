@@ -71,7 +71,7 @@ class _AddTaskState extends State<AddTask> {
             SizedBox(height: 10,),
             ElevatedButton(
               onPressed: (){
-                if(_timecontroller.text.isEmpty || _timecontroller.text.isEmpty){
+                if(_timecontroller.text.isEmpty || _titlecontroller.text.isEmpty){
                   showToast("Title and Time Can't be Empty");
                 }else{
                   _submit();
