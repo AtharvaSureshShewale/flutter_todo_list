@@ -55,7 +55,7 @@ class _AddTaskState extends State<AddTask> {
             SizedBox(height: 10,),
             TextField(
               controller: _timecontroller,
-              decoration: InputDecoration(labelText: 'Enter Time'),
+              decoration: InputDecoration(labelText: 'Enter Date'),
             ),
             SizedBox(height: 10,),
             Row(
