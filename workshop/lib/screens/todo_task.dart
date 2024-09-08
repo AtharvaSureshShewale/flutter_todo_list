@@ -51,7 +51,7 @@ class _TodoTaskState extends State<TodoTask> {
     return Scaffold(
       appBar: AppBar(
         title: Row(
-          children=[
+          children:[
             Icon(Icons.list),
             Text("Todo List"),
           ],
