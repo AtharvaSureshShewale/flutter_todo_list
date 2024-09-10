@@ -63,7 +63,7 @@ class _AddTaskState extends State<AddTask> {
                 Text('Important',style: TextStyle(color: Colors.red),),
                 Checkbox(value: status, onChanged: (bool?newvalue){
                 setState(() {
-                status=!status;
+                status=newvalue!;
               });
             }),
               ],
